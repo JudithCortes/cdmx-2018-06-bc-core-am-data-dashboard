@@ -1,10 +1,34 @@
-//const sedes = document.getElementById('sedes')
-window.computeStudentsStats = (laboratoria) => {
+//let btngeneracion = document.getElementsByClassName("seleccion1");
+
+window.sortStudents=()=>{}
+
+window.filterStudents=()=>{}
+
+window.computeStudentsStats=(laboratoria) =>{
+
+  const st = {
+    name :"",
+    email : "",
+    campus : "",
+    generation: "",
+    stats :{
+      status :"",
+      completedPercentage :"",
+      topics :{
+        completedPercentage :"",
+        percentageDuration : 0,
+        subtopics : {
+            completedPercentage:0 ,
+          type:0,
+            duration:0
+        }
+      }
+    }
+  }
 }
 
 window.computeGenerationsStats = (laboratoria) => {
 
-  console.log(laboratoria);
   const generationsArray =[];
 
   const obj = {
@@ -20,14 +44,17 @@ window.computeGenerationsStats = (laboratoria) => {
   for(key in laboratoria){
 
     obj.campus = key;
-    console.log(obj.campus);
+    //console.log(obj.campus);
 
     average = 0;
     const generations = Object.keys(laboratoria[key].generacion);
-    //console.log(laboratoria[key].generacion);
+    console.log(generations);
+
+
+
       generations.forEach((generation) => {
         obj.generation = generation;
-        console.log(obj.generation);
+       // console.log(obj.generation);
         const students = laboratoria[key].generacion[generation].estudiantes;
       //console.log(students);
 
@@ -39,14 +66,14 @@ window.computeGenerationsStats = (laboratoria) => {
             obj.generation= generation;
             obj.average = average;
             obj.count= array.length;
-            console.log(student);
+            //console.log(student);
+            generationsArray.push(student);
         })
 
 
         /*for (student in students) {
           average += students[student].progreso.porcentajeCompletado;
           average = average / students.lenght;
-
           obj.average = average;
           obj.count = students.lenght;
           console.log(obj.average);
@@ -62,4 +89,4 @@ window.computeGenerationsStats = (laboratoria) => {
 //console.log(generationsArray);
 return generationsArray;
 }
-//creamos un evento para comenzar a ejecutar todo s
+//console.log(generationsArray);
