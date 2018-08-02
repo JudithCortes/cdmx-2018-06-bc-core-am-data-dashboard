@@ -78,7 +78,7 @@ _Muestra porcentaje general de completitud y reporte de progreso de la alumna: p
 Para poder hacer uso de este programa es necesario:
 
 * tener acceso desde un equipo de escritorio (PC) o un mòvil (Android / IOS).
-* Acceder a la siguiente liga: https://judithcortes.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/
+* Acceder a la liga desde el repositorio en github.
 * Prara comenzar a vizualizar la informacion:
     * seleccionar una sede / buscar una alumna tecleando el nombre en el buscador.
     * seleccionar una generaciòn: en este punto se mostraran indicadores propios de la generaciòn asì como listado de alumnas inscritas.
