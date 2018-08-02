@@ -5,57 +5,82 @@
 Nuestro primer acercamiento lo haremos a través del proceso de diseño, donde pasamos por diferentes etapas como:
 
 ### **1. Descubrimiento e investigación**
+
+Un Data Dashboard es una herramienta cuyo objetivo y utilidad básica es diagnosticar adecuadamente una situación, permite crear vistas personalizadas de con conjunto de indicadores cuyo seguimiento y evaluación periódica permitirá contar con un mayor conocimiento de la situación.
+
+![sketch](https://www.geckoboard.com/assets/data-dashboard-in-office.jpg)
+
+* Principales usuarios.
+
+Todas las personas de Laboratoria involucradas en el proceso de mejora continua del Bootcamp.
+
+* Objetivos de estos usuarios en relación con el producto.
+
+Mantener un buen control de situación, visualizar los datos recopilados del desempeño de aprendizaje y tomar decisiones que les permitan aplicar los cambios necesarios para el mejor aprovechamiento de las estudiantes.
+
+Pueden tener acceso todos los dias en cualquier momento.
+
+Se ejecutaron entrevistas a usuarios (TM y AC) con lo que descubrimos que lo mas importante para el usuario es conocer la cantidad de alumnas activas en el bootcamp para asì detectar el porcentaje de deserciòn desde el inicio a la fecha, asì como datos integrales del perfil (softskills) de cada alumna y su aprovechamiento.
+
+
+* Soluciòn.
+
+El Data Dashboard facilitarà el diagnóstico y la toma de decisiones. permitirà organizar y configurar la información asì como agilizar la consulta que actualmente poseen y mejora el entendimiento del desempeño de todos los colaboradores de Laboratoria.
+Ayudarà a minimizar e integrar las herramientas (bases de datos) utilizadas actualmente para manipular la información.
+
+* Proceso de diseño.
+
+Se realizaron 3 sketches borrador y se seleccionò solo uno para mostrar la pantalla principal y que esta fuera fija para que la interfaz permitiera mostrar y ocultar elementos conforme la interacciòn del usuario.
+
+[entrevista TM](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DihvJ8wsalj4%26index%3D14%26list%3DWL%26t%3D0s&h=AT1B5nyqfUp4UcbP3oBc6SJ84vDsy4zDwN-YFYRWPlMVyKbABLR7Tkxp3anbDSvaa8bJcJp6C8Qbp27x8QoPeZzLMBu6MlZlGhxLLw-EmKFRHkML2gQra47_A49TTUBJTuMa)
 (En esta fase es donde vamos a tener ese proceso de investigación y acercamiento con el usuario, es donde vamos a obtener el conocimiento para poder saber a quién vamos a llegar, pero de manera más profunda. Es tener la empatía y el acercamiento necesario para conocerlo.
 
-También vamos a tener en cuenta al negocio, sus objetivos y a los stakeholders(involucrados)).
-
-__Usuarixs:__  (Toda la información que sepas de ellxs, ya sea porque las has podido observar o porque obtuviste datos directamente de ellas)
-
-__Necesidades de las usuarias:__
-
-
-__Objetivos de las usuarias:__ (Lo que quieren o esperan lograr)
-
-
-__Pain points:__ (En sus actividades diarias qué es lo que más les molesta u obstaculiza en el proceso de  realizar sus actividades/objetivos)
-
-__Sentimientos:__(Sentimientos que les surgen dentro del proceso de sus actividades. Identificar cuáles predominan)
-
-__Técnicas usadas en esta fase:__ (Sabemos que en este punto, tal vez, sólo has ocupado encuestas, no te olvides de documentar este proceso de recolección de datos)
-
-__5. Objetivos del negocio:__ (Enlistarlo(s))
-
-__6. Motivaciones del negocio para el data dashboard:__(Enlistarlo(s))
 
 ### **2. Síntesis y definición**
-(Dada la fase anterior de investigación, ahora vamos a tomar todos los datos más importantes y transformarlos en información valiosa para comenzar a orientarse a la solución. También vamos a entender lo que la empresa quiere de ese producto y comenzar a entender ambas visiones con el fin de encontrar un punto armónico)
 
-__1. Cuáles crees que son los datos más importantes a tener en cuenta para el Data Dashboard:__
-
-   - Sobre las estudiantes:
+De acuerdo a las entrevistas realizadas se concluyò que los datos mas importantes a tener en cuenta en el Data Dashboad es el nùmero de estudiantes que estudian actualemnte en Laboratoria, y su nivel de aprovechamiento.
  
-
-__2. Lo que los usuarios esperan obtener:__
-
-
-__3. Insights:__
-
-__4. Data proporcionada:__ 
-
-     -_Data relacionada a los cursos:_
-
-__5. Insights del negocio:__
+Es importante tener facil acceso a estos dos datos a traves de una interfaz intuitiva.
 
 ### **3. Ideación**
-(Acá se comienza a pensar esa solución tomando en cuenta la información recopilada y procesada)
+
+Se desarrollarà una interfaz que acceda a los datos recopilados sobre niveles de aprovechamiento de cada una de las alumnas, filtrandolas por sede y generaciòn.
 
 ### **4. Prototipado**
-(Esta es la fase creativa, donde se comienza a construir el Data dashboard con la información obtenida de las fases anteriores. Se reafirma crear la experiencia de usuario, donde la solución resuelve necesidades y facilita la vida)
 
-Sketch: (Adjuntar liga)
+se construye el Data dashboard basado en la experiencia de usuario, donde se pueda acceder a la informaciòn de aprovechamiento del LMS evitando asì hacer uso de mas herramientas y controlando lo que se visualiza mucho mas fàcil.
 
-Prototipo en figma: (Adjuntar liga)
+![sketch1](https://imageshack.com/a/img921/8002/oxsAgR.jpg)
+ ![sketch2](https://imageshack.com/a/img924/8337/9NYSwM.jpg)
+ ![sketch3](https://imageshack.com/a/img922/6254/JlcbEP.jpg)
+ ![sketch4](https://imageshack.com/a/img924/5736/uEP9m0.jpg)
+ ![sketch5](https://imageshack.com/a/img923/2649/vHrfLh.jpg)
+ ![sketch6](https://imageshack.com/a/img921/1008/0ORHRE.jpg)
 
-### **5. User testing**
-(Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
-****
+_Solicita usuario y contraseña para acceder_
+
+![Prototipo1](https://imageshack.com/a/img924/1163/QoKhZu.jpg)
+
+_Se observar las sedes listadas e informaciòn general de laboratoria_
+
+![Prototipo2](https://imageshack.com/a/img922/4650/1WmdPt.jpg)
+
+_Permite seleccionar la generaciòn y buscar por nombre de alumna, muestra informaciòn general de la sede y generacion_
+
+![Prototipo3](https://imageshack.com/a/img922/9652/JGFAB8.jpg)
+
+_Muestra porcentaje general de completitud y reporte de progreso de la alumna: porcentaje de completitud, porcentaje de tiempo completado de cada tema, lista subtemas y filtra subtemas completados, no completado y el tipo_
+
+![Prototipo4](https://imageshack.com/a/img921/4885/crSZ1s.jpg)
+
+### **5. Instalaciòn y uso del Data Dashboard**
+
+Para poder hacer uso de este programa es necesario:
+
+* tener acceso desde un equipo de escritorio (PC) o un mòvil (Android / IOS).
+* Acceder a la siguiente liga: https://judithcortes.github.io/cdmx-2018-06-bc-core-am-data-dashboard/src/
+* Prara comenzar a vizualizar la informacion:
+    * seleccionar una sede / buscar una alumna tecleando el nombre en el buscador.
+    * seleccionar una generaciòn: en este punto se mostraran indicadores propios de la generaciòn asì como listado de alumnas inscritas.
+    * seleccionar alumna: mostrarà indicadores de aprovechamiento por tema y subtema.
+
