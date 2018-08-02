@@ -176,12 +176,26 @@ una foto, subirla a tu repositorio y hacer mención del _sketch_ en tu `README.m
 
 #### 3) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
+<<<<<<< HEAD
 Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés).
 Para eso debes aprender a utilizar alguna herramienta de diseño visual.
 Nosotros te recomendamos [Figma](https://www.figma.com/) que  es una herramienta
 que funciona en el navegador y, además, puedes crear una cuenta gratis. Sin
 embargo, eres libre de utilizar otros editores gráficos como
 Illustrator, Photoshop, PowerPoint, Keynote, etc.
+=======
+_Solicita usuario y contraseña para acceder_
+
+![Prototipo1](https://imageshack.com/a/img924/1163/QoKhZu.jpg)
+
+_Se observar las sedes listadas e informaciòn general de laboratoria_
+
+![Prototipo2](https://imageshack.com/a/img922/4650/1WmdPt.jpg)
+
+_Permite seleccionar la generaciòn y buscar por nombre de alumna, muestra informacion de la generacion: Promedio de la generación, status estudiantes debajo del 60 porciento de completitud, status de estudiantes con 90 o más en su porcentaje de completitud, filtrar estudiantes por estos dos status_
+
+![Prototipo3](https://imageshack.com/a/img922/9652/JGFAB8.jpg)
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 
 El diseño debe representar tu _ideal_ de solución. Digamos que es lo que
 desearías implementar si tuvieras tiempo ilimitado para hackear.

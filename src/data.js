@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // //////////////////////////////////////declaro la funcion draw que corresponde al evento del elemento seccion
 const drawSedes = (e) => {
   // guardo en una variable el indice especifico del elemento
@@ -50,8 +51,39 @@ const drawSedes = (e) => {
     // });
   });
 };
+=======
+//let btngeneracion = document.getElementsByClassName("seleccion1");
+
+window.sortStudents=()=>{}
+
+window.filterStudents=()=>{}
+
+window.computeStudentsStats=(laboratoria) =>{
+
+  const st = {
+    name :"",
+    email : "",
+    campus : "",
+    generation: "",
+    stats :{
+      status :"",
+      completedPercentage :"",
+      topics :{
+        completedPercentage :"",
+        percentageDuration : 0,
+        subtopics : {
+            completedPercentage:0 ,
+          type:0,
+            duration:0
+        }
+      }
+    }
+  }
+}
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 
 
+<<<<<<< HEAD
 
 
 // let btngeneracion = document.getElementsByClassName("seleccion1");
@@ -84,6 +116,9 @@ window.computeStudentsStats = (laboratoria) =>{
 
 window.computeGenerationsStats = (laboratoria) => {
   const generationsArray = [];
+=======
+  const generationsArray =[];
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 
   const obj = {
     campus: '',
@@ -92,18 +127,30 @@ window.computeGenerationsStats = (laboratoria) => {
     count: 0,
   };
 
+<<<<<<< HEAD
   // console.log(obj);
   let average = 0;
+=======
+  //console.log(obj);
+  let average =0;
+
+  for(key in laboratoria) {
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 
   for (key in laboratoria) {
     obj.campus = key;
+<<<<<<< HEAD
     // console.log(obj.campus);
+=======
+    //console.log(obj.campus);
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 
     average = 0;
     const generations = Object.keys(laboratoria[key].generacion);
     console.log(generations);
 
 
+<<<<<<< HEAD
     generations.forEach((generation) => {
       obj.generation = generation;
       // console.log(obj.generation);
@@ -121,6 +168,26 @@ window.computeGenerationsStats = (laboratoria) => {
         // console.log(student);
         generationsArray.push(student);
       });
+=======
+
+      generations.forEach((generation) => {
+        obj.generation = generation;
+       // console.log(obj.generation);
+        const students = laboratoria[key].generacion[generation].estudiantes;
+      //console.log(students);
+
+//console.log(studentsStats);
+        const studentsStats = students.map((student,i,array)=>{
+          average += array[i].progreso.porcentajeCompletado;
+          average = average / array.lenght;
+            obj.campus= key;
+        obj.generation= generation;
+            obj.average = average;
+            obj.count= array.length;
+            //console.log(student);
+            generationsArray.push(student);
+        })
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 
 
       /* for (student in students) {
@@ -132,13 +199,25 @@ window.computeGenerationsStats = (laboratoria) => {
           console.log(obj.count);
         }*/
       //  console.log(generationsArray);
+<<<<<<< HEAD
       // console.log(generationsArray.push(obj));
     });
+=======
+// console.log(generationsArray.push(obj));
+      })
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 
     // console.log(generationsArray.push(obj));
   }
 
+<<<<<<< HEAD
   // console.log(generationsArray);
   return generationsArray;
 };
 // console.log(generationsArray);
+=======
+//console.log(generationsArray);
+return generationsArray;
+}
+//console.log(generationsArray);
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb

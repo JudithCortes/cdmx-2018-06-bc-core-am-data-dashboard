@@ -1,5 +1,9 @@
 // creo una variable que guarde el elemento con id pintar
+<<<<<<< HEAD
 const pintar = document.getElementById('pintar');
+=======
+const pintar = document.getElementById("pintar");
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 // guardo en una variable el json desde una url
 const json = 'https://api.myjson.com/bins/hhjfy';
 // declaro una variable para guardar los selectores con id seleccion y seleccion1
@@ -23,7 +27,11 @@ const cambia = ()=> {
     // se calcula el numero de Sedes
     num_opts = mis_opts.length;
     // marco el numero de opt en el select
+<<<<<<< HEAD
     document.formulario1.opt.length = num_opts;
+=======
+  document.formulario1.opt.length=num_opts;
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
     // para cada opt del array, la pongo en el select
     for (i = 0; i < num_opts; i++) {
       document.formulario1.opt.options[i].value = mis_opts[i];
@@ -37,12 +45,73 @@ const cambia = ()=> {
     document.formulario1.opt.options[0].text = '-';
   }
 };
+<<<<<<< HEAD
 
 // declaramos funcion para imprimir el nombre de las estudiantes en la tabla
 const drawAlumna = (students) => {
  
 };
 
+=======
+// //////////////////////////////////////declaro la funcion draw que corresponde al evento del elemento seccion
+const drawSedes = (e) => {
+  // guardo en una variable el indice especifico del elemento
+  let index = e.target.selectedIndex;
+  // guardo en una variable el valor del indice en minusculas
+  let sed = e.target[index].innerText.toLowerCase();
+  // convierto la cadena sed en un array
+  let sedArray = sed.split('');
+
+  // declaro el evento selectGeneracion
+  selectGeneration.addEventListener('change', (event) => {
+    // guardo en una variable el indice especifico del elemento con id seleccion1
+    let indexGen = event.target.selectedIndex;
+    // guardo en una variable el valor del indice con id seleccion1
+    let gen = event.target[indexGen].innerText;
+    // convierto la cadena gen en un array
+    var genArray = gen.split('');
+
+    fetch(json)
+      .then(response => response.json())
+      .then((res) => {
+        // valido que en este punto se estè accediendo a la data correctamente y que las variables declaradas tienen el valor esperado de json
+        // console.log(res);
+        // console.log(sed);
+        // console.log(gen);
+        // const generations = computeGenerationsStats(res);
+        const students = res[sed].generacion[gen].estudiantes;
+        console.log(students);
+
+         let imprime = '';
+
+  for (i = 0; i < students.length; i++) {
+    let alumna = students[i];
+    // se crea una tabla que contiene 2 columnas, en la primera se imprime el correo de la alumna, en la segunda se imprime el turno
+    imprime += `<tr>
+                  <th scope="col" >${alumna.nombre}</th>
+                  <th scope="col"> ${alumna.correo}</th>
+                  <th scope="col"> ${alumna.progreso.porcentajeCompletado}</th>
+                  <th scope="col"></th>
+                  </tr>`;
+
+  pintar.innerHTML = imprime;
+    // console.log(result);
+    // se crea una variable en la que se guarde cada una de las estudiantes, su progreso y temas
+    // const porcentajeC= arrayEstudiantes[i].progreso.porcentajeCompletado;
+  }
+      })
+      //.catch((error) => {
+      //  console.log('error Judith');
+      //});
+  });
+};
+
+// declaramos funcion para imprimir el nombre de las estudiantes en la tabla
+const drawAlumna = (students) => {
+
+};
+
+>>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 // declaramos funcion para obtener progreso de temas
 const drawProgress = (students) => {
   const progress = students[i].progreso.temas;

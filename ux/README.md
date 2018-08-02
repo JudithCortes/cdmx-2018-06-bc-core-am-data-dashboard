@@ -2,8 +2,6 @@
 
 ## **Proceso de UX**
 
-Nuestro primer acercamiento lo haremos a través del proceso de diseño, donde pasamos por diferentes etapas como:
-
 ### **1. Descubrimiento e investigación**
 
 Un Data Dashboard es una herramienta cuyo objetivo y utilidad básica es diagnosticar adecuadamente una situación, permite crear vistas personalizadas de con conjunto de indicadores cuyo seguimiento y evaluación periódica permitirá contar con un mayor conocimiento de la situación.
