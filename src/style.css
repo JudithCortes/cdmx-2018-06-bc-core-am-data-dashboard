@@ -1,12 +1,30 @@
-html{
-  margin:20px;
+body{
+  font-family: 'Bitter', serif !important;
 }
 
-.imagen {
- max-width: 100%;
-height: auto;
+header{
+  text-align: center;
+  height: 115px;
+  padding: 35px 0 0;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
+.temas{
+  display: none;
+}
+
+nav{
+  background: #fee420;
+}
+.style1{
+text-align: center;
+}
+.table-striped{
+  text-align: center;
+}
+.icono {
+  display: inline-block;
+}
+
+.footer{
+  background: #fee420;
+}

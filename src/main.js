@@ -1,9 +1,8 @@
+
+//const drawTemas = document.getElementById("tituloTemas");
+const totalStudents = document.getElementById("totalStudents");
 // creo una variable que guarde el elemento con id pintar
-<<<<<<< HEAD
-const pintar = document.getElementById('pintar');
-=======
 const pintar = document.getElementById("pintar");
->>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 // guardo en una variable el json desde una url
 const json = 'https://api.myjson.com/bins/hhjfy';
 // declaro una variable para guardar los selectores con id seleccion y seleccion1
@@ -27,11 +26,7 @@ const cambia = ()=> {
     // se calcula el numero de Sedes
     num_opts = mis_opts.length;
     // marco el numero de opt en el select
-<<<<<<< HEAD
-    document.formulario1.opt.length = num_opts;
-=======
   document.formulario1.opt.length=num_opts;
->>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
     // para cada opt del array, la pongo en el select
     for (i = 0; i < num_opts; i++) {
       document.formulario1.opt.options[i].value = mis_opts[i];
@@ -45,14 +40,6 @@ const cambia = ()=> {
     document.formulario1.opt.options[0].text = '-';
   }
 };
-<<<<<<< HEAD
-
-// declaramos funcion para imprimir el nombre de las estudiantes en la tabla
-const drawAlumna = (students) => {
- 
-};
-
-=======
 // //////////////////////////////////////declaro la funcion draw que corresponde al evento del elemento seccion
 const drawSedes = (e) => {
   // guardo en una variable el indice especifico del elemento
@@ -82,6 +69,7 @@ const drawSedes = (e) => {
         const students = res[sed].generacion[gen].estudiantes;
         console.log(students);
 
+
          let imprime = '';
 
   for (i = 0; i < students.length; i++) {
@@ -91,14 +79,32 @@ const drawSedes = (e) => {
                   <th scope="col" >${alumna.nombre}</th>
                   <th scope="col"> ${alumna.correo}</th>
                   <th scope="col"> ${alumna.progreso.porcentajeCompletado}</th>
-                  <th scope="col"></th>
+                  <th scope="col"><button type="button" class="btn btn-outline-dark" onclick = "drawProgress('students')">ver</button></th>
                   </tr>`;
 
-  pintar.innerHTML = imprime;
-    // console.log(result);
+    pintar.innerHTML = imprime;
+   const progress = students[i].progreso.temas;
+   
+
+   for (key in progress) {
+
+    temas = key;
+    
+    //console.log(progress);
+    //console.log(temas);
+    //document.getElementById('tituloTemas').innerHTML = temas;
+
+  }
+
+//drawTemas.innerHTML = temas;
+   totalStudents.innerHTML = students.length;
+
+      // console.log(result);
     // se crea una variable en la que se guarde cada una de las estudiantes, su progreso y temas
     // const porcentajeC= arrayEstudiantes[i].progreso.porcentajeCompletado;
   }
+  
+
       })
       //.catch((error) => {
       //  console.log('error Judith');
@@ -111,15 +117,9 @@ const drawAlumna = (students) => {
 
 };
 
->>>>>>> 95dff5e4c05036055441fdd55670d32384a9d1fb
 // declaramos funcion para obtener progreso de temas
-const drawProgress = (students) => {
-  const progress = students[i].progreso.temas;
-  // se itera en la propiedad progreso
-  for (key in progress) {
-    temas = key;
-    console.log(progress);
-    console.log(temas);
-  }
+const drawProgress = (progress) => {
+  // se itera en la propiedad progress
+
 };
 selectSed.addEventListener('change', drawSedes);

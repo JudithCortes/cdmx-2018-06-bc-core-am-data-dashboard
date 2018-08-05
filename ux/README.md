@@ -8,6 +8,11 @@ Un Data Dashboard es una herramienta cuyo objetivo y utilidad básica es diagnos
 
 ![sketch](https://www.geckoboard.com/assets/data-dashboard-in-office.jpg)
 
+Se decidiò realizar una entrevista a usuario para conocer cuales eran los datos mas importantes que necesita ver en el Data Dashboard:
+
+[entrevista TM](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DihvJ8wsalj4%26index%3D14%26list%3DWL%26t%3D0s&h=AT1B5nyqfUp4UcbP3oBc6SJ84vDsy4zDwN-YFYRWPlMVyKbABLR7Tkxp3anbDSvaa8bJcJp6C8Qbp27x8QoPeZzLMBu6MlZlGhxLLw-EmKFRHkML2gQra47_A49TTUBJTuMa)
+
+
 * Principales usuarios.
 
 Todas las personas de Laboratoria involucradas en el proceso de mejora continua del Bootcamp.
@@ -30,9 +35,9 @@ Ayudarà a minimizar e integrar las herramientas (bases de datos) utilizadas act
 
 Se realizaron 3 sketches borrador y se seleccionò solo uno para mostrar la pantalla principal y que esta fuera fija para que la interfaz permitiera mostrar y ocultar elementos conforme la interacciòn del usuario.
 
-[entrevista TM](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DihvJ8wsalj4%26index%3D14%26list%3DWL%26t%3D0s&h=AT1B5nyqfUp4UcbP3oBc6SJ84vDsy4zDwN-YFYRWPlMVyKbABLR7Tkxp3anbDSvaa8bJcJp6C8Qbp27x8QoPeZzLMBu6MlZlGhxLLw-EmKFRHkML2gQra47_A49TTUBJTuMa)
-(En esta fase es donde vamos a tener ese proceso de investigación y acercamiento con el usuario, es donde vamos a obtener el conocimiento para poder saber a quién vamos a llegar, pero de manera más profunda. Es tener la empatía y el acercamiento necesario para conocerlo.
+Se validaron colores, tipografìa y logo de la marca:
 
+https://ibb.co/jqO3MK
 
 ### **2. Síntesis y definición**
 
@@ -71,7 +76,27 @@ _Muestra porcentaje general de completitud y reporte de progreso de la alumna: p
 
 ![Prototipo4](https://imageshack.com/a/img921/4885/crSZ1s.jpg)
 
-### **5. Instalaciòn y uso del Data Dashboard**
+### **5. Diseño final**
+
+Se decidiò incluir el logo, la tipografìa y los colores oficiales de Laboratoria:
+
+Logo:
+
+https://ibb.co/n9xuve
+
+tipografìa: “Bitter”
+
+https://ibb.co/muBF1K
+
+Colores enérgicos y feministas: amarillo como color principal, magenta y menta.
+
+https://ibb.co/d83CgK
+
+Los corchetes son el principal símbolo de Laboratoria por el progreso y la transformación que sucede.
+
+https://ibb.co/h15gae
+
+### **6. Instalaciòn y uso del Data Dashboard**
 
 Para poder hacer uso de este programa es necesario:
 
