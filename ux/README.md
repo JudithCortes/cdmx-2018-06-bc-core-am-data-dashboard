@@ -37,7 +37,7 @@ Se realizaron 3 sketches borrador y se seleccionò solo uno para mostrar la pant
 
 Se validaron colores, tipografìa y logo de la marca:
 
-https://ibb.co/jqO3MK
+[IMG]http://i65.tinypic.com/13z4j03.png[/IMG]
 
 ### **2. Síntesis y definición**
 
@@ -82,19 +82,19 @@ Se decidiò incluir el logo, la tipografìa y los colores oficiales de Laborator
 
 Logo:
 
-https://ibb.co/n9xuve
+[IMG]http://i63.tinypic.com/16m6ib.png[/IMG]
 
 tipografìa: “Bitter”
 
-https://ibb.co/muBF1K
+[IMG]http://i66.tinypic.com/2qs8f82.png[/IMG]
 
 Colores enérgicos y feministas: amarillo como color principal, magenta y menta.
 
-https://ibb.co/d83CgK
+[IMG]http://i63.tinypic.com/m9aszc.png[/IMG]
 
 Los corchetes son el principal símbolo de Laboratoria por el progreso y la transformación que sucede.
 
-https://ibb.co/h15gae
+[IMG]http://i68.tinypic.com/2evwxm0.png[/IMG]
 
 ### **6. Instalaciòn y uso del Data Dashboard**
 
