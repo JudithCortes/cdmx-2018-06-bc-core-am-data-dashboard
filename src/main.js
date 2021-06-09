@@ -4,7 +4,7 @@ const totalStudents = document.getElementById("totalStudents");
 // creo una variable que guarde el elemento con id pintar
 const pintar = document.getElementById("pintar");
 // guardo en una variable el json desde una url
-const json = 'https://api.myjson.com/bins/hhjfy';
+const json = 'http://myjson.dit.upm.es/api/bins/1jxr';
 // declaro una variable para guardar los selectores con id seleccion y seleccion1
 const selectSed = document.getElementById('seleccion');
 const selectGeneration = document.getElementById('seleccion1');
