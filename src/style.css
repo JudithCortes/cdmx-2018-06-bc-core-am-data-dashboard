@@ -1,11 +1,57 @@
 body{
   font-family: 'Bitter', serif !important;
+  margin:0%;
+  padding:0%;
 }
 
 header{
-  text-align: center;
+  width: 90%;
   height: 115px;
-  padding: 35px 0 0;
+  margin:auto;
+}
+
+.navbar-container{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container{
+  width: 80%;
+  margin: auto;
+  height: 80%;
+  border: 20px solid #fee420;
+  display: flex;
+  justify-content: space-between;
+
+}
+.form-inline {
+  width: 50%;
+}
+
+.search{
+  justify-content: flex-end;
+}
+
+.container-logo{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.logo-img{
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  border: 1px soid blue;
+  background-image: url(img/labo.png);
+  object-fit: cover;
+  object-position: center center;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .temas{
@@ -27,4 +73,78 @@ text-align: center;
 
 .footer{
   background: #fee420;
+}
+
+@media only screen and (max-width: 400px){
+  .container-logo{
+    width: 100%; 
+}
+  .logo-img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+
+  .navbar-container{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-logo{
+    width: 100%; 
+}
+  .logo-img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+
+ 
+
+  .form-inline{
+    justify-content: center;
+  }
+  .container-logo{
+    width: 100%; 
+}
+  .logo-img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .container-logo{
+    width: 100%; 
+}
+  .logo-img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .container-logo{
+    width: 100%; 
+}
+  .logo-img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .container-logo{
+    width: 100%; 
+}
+  .logo-img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .container-logo{
+    width: 100%; 
+}
+  .logo-img{
+    width: 100%;
+  }
 }

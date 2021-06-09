@@ -11,10 +11,13 @@
 
 <body>
   <header>
-    <img src="img/labo.png" alt = "">
+    <div class="container-logo">
+      <div class="logo-img"></div>
+    </div>
   </header>
-  <nav class="navbar justify-content-between">
-    <form class="form-inline" name="formulario1" action="#">
+  <nav class="navbar-container">
+    <div class="form-container">
+    <form class="form-inline selector" name="formulario1" action="#">
       <select class="form-control" name="sedes" id="seleccion" onchange="cambia()" >
         <option class="opcion" value="0">Sedes</option>
         <option class="opcion" value="1">Lima</option>
@@ -25,10 +28,11 @@
         <option class="opcion" value="-">-</option>
       </select>
     </form>
-    <form class="form-inline">
+    <form class="form-inline search">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button type="button" class="btn btn-dark">Buscar</button>
     </form>
+  </div>
   </nav>
   <section class="container my-5">
     <div class = "row style1">
